@@ -1,0 +1,207 @@
+body {
+	background-color: #FFF;
+}
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+/*
+ * Sidebar
+ */
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+.sidebar a {
+	color: #666;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #072d35;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.logo-title {
+	font-size: 1em;
+	color: #fff;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 5px;
+}
+.nav-title {
+	font-size: 1em;
+    padding: 10px;
+    margin: 0;
+	color: #666;
+	border-bottom: 1px solid #222;
+}
+.nav-sidebar {
+  margin: 0;
+}
+.nav-sidebar > li > a {
+  padding: 10px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+	color: #fff;
+}
+.sidebar .fa-leaf {
+	color: #fff;
+}
+.logo-section {
+	background-color: #056fc6;
+}
+.logo-icon {
+    text-align: right;
+    display: block;
+    padding: 15px 0 0;
+}
+.no-padding {
+	padding: 0 !important;
+}
+/*
+ * Main content
+ */
+.top-bar {
+	background-color: #FFF;
+    width: 100%;
+    display: inline-block;
+    height: 49px;
+    padding: 10px;
+}
+.settings, .toggle-bar, .notification {
+	padding: 8px 0;
+	color: #666;
+	display: block;
+}
+.top-bar .search-form button {
+	background-color: #FFF;
+}
+.top-bar .search-form input {
+	border: none;
+	border-radius: 0;
+	box-shadow: 0 0 0 0;
+	padding-left: 0;
+	color: #000;
+}
+.top-bar .notification .label {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-size: 9px;
+    padding: 2px 3px;
+    line-height: .9;
+}
+.top-bar-right {
+	float: right;
+	padding: 8px 0;
+}
+.flag {
+	width: 25px;
+	margin-left: 20px;
+	display: block;
+	float: right;
+}
+.flag img {
+	width: 100%;
+}
+.main {
+  padding: 20px;
+  background-color: #e0e5ec;
+}
+.main-content {
+	padding: 0 2%;
+	display: inline-block;
+	width: 100%;
+}
+.box {
+	width: 100%;
+    height: 125px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    margin: 20px 0;
+    border-radius: 4px;
+    padding: 10px;
+}
+.heading {
+	margin: 0;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+h4.heading {
+    font-size: 12px;
+    text-transform: none;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+.fa-line-chart {
+  background-color: #76ac86;
+  color: #fff;
+  padding: 15px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+.fa-check {
+    padding: 15px;
+    border: 1px solid #999;
+    border-radius: 25px;
+}
+.marTop10 {
+    margin-top: 10px;
+}
+.marLeft10 {
+    margin-left: 10px;
+}
+.fa-cart-plus {
+  background-color: #e64554;
+  color: #fff;
+  padding: 15px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
